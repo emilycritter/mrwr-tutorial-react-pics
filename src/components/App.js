@@ -1,14 +1,16 @@
-import Reach from 'react';
+import React from 'react';
 import SearchBar from './SearchBar';
 import ImageList from './ImageList';
 
-const App = () => {
-  return (
-    <div className="ui container" style={{ marginTop: '10px' }}>
-      <SearchBar />
-      <ImageList />
-    </div>
-  )
+class App extends React.Component {
+  render() {
+    return (
+      <div className="ui container" style={{ marginTop: '10px' }}>
+        <SearchBar />
+        <ImageList />
+      </div>
+    )
+  }
 }
 
 export default App;
