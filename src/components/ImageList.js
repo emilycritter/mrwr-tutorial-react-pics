@@ -1,9 +1,15 @@
 import React from 'react';
 
 const ImageList = (props) => {
+  const images = props.images.map((image) => {
+    return (
+      <img src={image.urls.regular} />
+    )
+  })
+
   return (
     <div>
-      Found: {props.images.length} images
+      {images}
     </div>
   )
 }
