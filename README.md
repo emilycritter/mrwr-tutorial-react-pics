@@ -1,6 +1,6 @@
 # Modern React with Redux Tutorial: Picture App
 - [Udemy Course](https://www.udemy.com/course/react-redux/)
-- Course Sections: 7-9
+- Course Sections: 7-10
 
 
 ## Getting Started with Create React App
